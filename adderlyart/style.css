@@ -1,0 +1,143 @@
+body {
+    background-color: black !important;
+}
+
+#heroSection {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#heroSection img {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+#heroSection .centeredHeroText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imageTextSection {
+    width: 80%;
+    display: flex;
+    color: white;
+}
+
+.imageTextSection .left {
+    float: left;
+    width: 100%;
+}
+
+.imageTextSection .right {
+    float: right;
+    width: 100%;
+}
+
+.imageTextSection div{
+    padding: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  #formSection{
+    text-align: center;
+    color: white;
+  }
+
+  #formSection form{
+    width: 60%;
+  }
+
+  #formSection input,textarea{
+    margin: 10px;
+  }
+
+/* Ripped from OG site */
+.social{
+  --color_0: 255,255,255;
+  --color_1: 255,255,255;
+  --color_2: 0,0,0;
+  --color_3: 237,28,36;
+  --color_4: 0,136,203;
+  --color_5: 255,203,5;
+  --color_6: 114,114,114;
+  --color_7: 176,176,176;
+  --color_8: 255,255,255;
+  --color_9: 114,114,114;
+  --color_10: 176,176,176;
+  --color_11: 255,255,255;
+  --color_12: 204,204,204;
+  --color_13: 160,160,159;
+  --color_14: 96,94,94;
+  --color_15: 47,46,46;
+  --color_16: 251,212,190;
+  --color_17: 246,189,156;
+  --color_18: 242,130,65;
+  --color_19: 161,87,43;
+  --color_20: 81,43,22;
+  --color_21: 177,236,246;
+  --color_22: 104,217,237;
+  --color_23: 78,163,178;
+  --color_24: 52,108,118;
+  --color_25: 26,54,59;
+  --color_26: 247,234,169;
+  --color_27: 239,220,125;
+  --color_28: 231,195,11;
+  --color_29: 154,130,7;
+  --color_30: 39,33,2;
+  --color_31: 255,179,246;
+  --color_32: 255,102,236;
+  --color_33: 191,77,177;
+  --color_34: 128,51,118;
+  --color_35: 64,26,59;
+  --font_0: normal normal bold 18px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  --font_2: normal normal bold 18px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  --font_3: normal normal normal 90px/1.4em 'arial black',arial-w01-black,arial-w02-black,'arial-w10 black',sans-serif;
+  --font_4: normal normal normal 28px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  --font_5: normal normal bold 18px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  --font_6: normal normal bold 17px/1.4em 'open sans',sans-serif;
+  --font_7: normal normal normal 16px/1.4em 'open sans',sans-serif;
+  --font_8: normal normal normal 16px/1.4em 'open sans',sans-serif;
+  --font_9: normal normal normal 14px/1.4em arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+  --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  list-style: none;
+  white-space: nowrap;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+
+.social li{
+    display:inline-block;
+    margin: 5px;
+}
+
+.footerRight{
+    text-align: right;
+}
+
+#ytVideo {
+    text-align: center;
+}
+
+.navbar{
+    padding: 10px 25px 10px 25px;
+}

@@ -43,6 +43,10 @@ body {
     padding: 20px;
 }
 
+.imageTextSection a {
+    color: white;
+}
+
 .center {
     margin: auto;
     width: 50%;
